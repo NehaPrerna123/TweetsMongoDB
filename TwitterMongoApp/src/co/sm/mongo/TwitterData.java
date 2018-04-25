@@ -26,10 +26,10 @@ public class TwitterData {
     		
     	ConfigurationBuilder cofigurationBuilder =new ConfigurationBuilder();
         cofigurationBuilder.setDebugEnabled(true)
-        .setOAuthConsumerKey("3QcoEX2pzZTGmSzzspk2adeW3")
-        .setOAuthConsumerSecret("7sGEzWJsVOtfi3RtJJO1CuwnGHZx6Q5lp4U9Uma5tEtyBgxDI0")
-        .setOAuthAccessToken("987043937297690624-4NzSwtrIgV5x6emXlio86UdB7ivW4L1")
-        .setOAuthAccessTokenSecret("XDo98GNMJSKDLVeKtIxLjD7fc9hBtltyo6WkFuXD6b9wi");
+        .setOAuthConsumerKey("*********************")
+        .setOAuthConsumerSecret("********************")
+        .setOAuthAccessToken("*********************")
+        .setOAuthAccessTokenSecret("*************************");
        // .setJSONStoreEnabled(true);
     	
      /**** Connect to MongoDB ****/
