@@ -43,10 +43,10 @@ public class TwitterData {
     // if database doesn't exists, MongoDB will create it for you
     MongoDatabase db = mongo.getDatabase("mytwitterdb");
 
-    /**** Get collection / table from 'sample' ****/
+    
     // if collection doesn't exists, MongoDB will create it for you
     //@SuppressWarnings("rawtypes")
-	//MongoCollection<Document> items = db.getCollection("twittercoll");
+	
     MongoCollection<Document> items= db.getCollection("twittercoll"); 
 
     /**** Getting Data From Twitter time line ****/
