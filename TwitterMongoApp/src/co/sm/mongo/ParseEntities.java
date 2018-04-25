@@ -19,10 +19,10 @@ public class ParseEntities {
 	public static void main(String[] args) {
 		
 		  ConfigurationBuilder cb = new ConfigurationBuilder();
-		  cb.setOAuthConsumerKey("3QcoEX2pzZTGmSzzspk2adeW3");
-		  cb.setOAuthConsumerSecret("7sGEzWJsVOtfi3RtJJO1CuwnGHZx6Q5lp4U9Uma5tEtyBgxDI0");
-		  cb.setOAuthAccessToken("987043937297690624-4NzSwtrIgV5x6emXlio86UdB7ivW4L1");
-		  cb.setOAuthAccessTokenSecret("XDo98GNMJSKDLVeKtIxLjD7fc9hBtltyo6WkFuXD6b9wi");
+		  cb.setOAuthConsumerKey("**************************");
+		  cb.setOAuthConsumerSecret("**************************");
+		  cb.setOAuthAccessToken("*************************");
+		  cb.setOAuthAccessTokenSecret("**************************");
 		  
 		     /**** Connect to MongoDB ****/
 		    System.out.println("Connecting to MongoDB...");
